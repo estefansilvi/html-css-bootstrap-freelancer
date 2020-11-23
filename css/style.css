@@ -1,0 +1,140 @@
+/* common rules */
+
+.display-inline-block{
+  display: inline-block;
+}
+.width-100{
+  width:100%;
+}
+.bg-black {
+  background: #000000;
+}
+
+.bg-white {
+  background: #ffffff;
+}
+.bg-dark-blue {
+  background-color:#2C3E50;
+}
+
+.bg-light-green{
+  background-color: #1ABC9C
+}
+.color-white {
+  color: #ffffff;
+}
+.color-black {
+  color: #000000;
+}
+.py-30 {
+padding-bottom: 30px;
+padding-top: 30px;
+}
+
+.mb-15{
+  margin-bottom: 15px;
+}
+/* components */
+
+
+
+.star-divisor .line {
+ width: 20vw;
+ /*border:2px solid white;*/
+ height: 2px;
+ margin-bottom:15px;
+}
+
+.star-divisor i.fa-star{
+  font-size:60px;
+}
+
+/* page sections */
+.navbar {
+  height: 80px;
+}
+
+.start-bootstrap{
+  text-align: center;
+  background-color: #1ABC9C;
+}
+
+.start-bootstrap img.main-image{
+  width: 40%;
+  padding:20px;
+}
+
+.start-bootstrap .title {
+  font-size:50px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.start-bootstrap h2.subtitle {
+  font-size: 28px;
+  color: white;
+}
+
+
+.portfolio {
+  text-align: center;
+  background-color: #ffffff;
+}
+ .portfolio [class*="col-"] h1{
+   font-size: 50px;
+   color: #000000;
+ }
+
+
+
+ .portfolio .image{
+   margin-bottom: 40px;
+ }
+
+ .about {
+   background-color:#1ABC9C;
+   text-align: center;
+ }
+
+.about .title {
+  font-size: 50px;
+  color: #ffffff;
+}
+
+
+.about  p.testo{
+  text-align: left;
+  font-size:30px;
+  color: #ffffff;
+}
+
+
+.about [class*="col-"] .btn-default{
+  background-color:#1ABC9C;
+  text-align: center;
+  margin:20px;
+}
+
+
+.about [class*="col-"] a {
+  font-size:30px;
+  color: #ffffff;
+}
+
+.container.contact-me {
+  text-align: center;
+}
+.form {
+  font-size: 20px;
+  padding: 10px 0px;
+  border-bottom: 1px solid #ccc;
+  color: #2C3E50;
+  text-align: left;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
