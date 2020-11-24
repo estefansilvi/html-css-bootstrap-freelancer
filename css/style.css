@@ -36,6 +36,11 @@ padding-top: 30px;
 .mb-15{
   margin-bottom: 15px;
 }
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
 /* components */
 
 
@@ -79,7 +84,6 @@ border:0;
 }
 .start-bootstrap{
   text-align: center;
-  background-color: #1ABC9C;
 }
 
 .start-bootstrap img.main-image{
@@ -112,11 +116,6 @@ border:0;
 
  .portfolio .image{
    margin-bottom: 40px;
- }
-
- .about {
-   background-color:#1ABC9C;
-   text-align: center;
  }
 
 .about .title {
@@ -182,7 +181,6 @@ border:0;
 }
 
 .info{
-  text-align: center;
   padding:10px;
 }
 
@@ -194,7 +192,7 @@ border:0;
   margin: 10px 0;
 }
 .info .social i {
-  font-size: 18px;
+ font-size: 18px;
  margin: 0px 5px;
  border: 1px solid #fff;
  border-radius: 50%;
