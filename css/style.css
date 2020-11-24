@@ -52,9 +52,31 @@ padding-top: 30px;
 
 /* page sections */
 .navbar {
-  height: 80px;
+margin-bottom: 0;
+border:0;
 }
 
+.bl-navbar {
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+.bl-navbar .navbar-brand, .bl-navbar .navbar-nav>li>a {
+  color: #fff;
+}
+
+.bl-navbar .navbar-brand {
+  font-size:24px;
+  font-weight: bolder;
+}
+
+.bl-navbar .navbar-nav>li>a {
+  font-weight: bolder;
+}
+
+.bl-navbar .navbar-brand:hover, .bl-navbar .navbar-nav>li>a:hover {
+  color: #1ABC9C;
+}
 .start-bootstrap{
   text-align: center;
   background-color: #1ABC9C;
@@ -111,7 +133,7 @@ padding-top: 30px;
 }
 
 
-.about [class*="col-"] .btn-default{
+.about  a.btn-default{
   background-color:#1ABC9C;
   text-align: center;
   margin:20px;
@@ -152,8 +174,8 @@ padding-top: 30px;
   text-align: left;
 }
 
-.contact-me .btn-default {
-  text-align: center;
+.bl-form .btn-default {
+  text-align: left;
   background-color:#1ABC9C;
   color: #ffffff;
   margin-bottom: 10px;
@@ -208,3 +230,9 @@ padding-top: 30px;
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .start-bootstrap img.main-image{
+    width: 20%;
+    padding:20px;
+  }
+
+}
